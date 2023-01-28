@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: #bf7631;
+    background-color: white;
     position: relative;
     padding: 1rem;
 }
@@ -40,10 +40,20 @@ nav div {
     display: inline; 
     top: 0.7rem;
     left: 40rem;
+    width: 80%;
  
 }
 
-main section {
+.title {
     background-color: black;
+    color: white;
     padding: 2rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.box{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
