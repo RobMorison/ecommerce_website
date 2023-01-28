@@ -17,18 +17,22 @@
                 <li>CONTACT</li>
                 
             </ul>
-            <h1>CARA 
-            <img src="./assets/icons8-pottery-96.png" alt="small pottery vase">
-            CARA</h1>
-            <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="search magnifing glass icon">
-
+            <div>CARA 
+            <img src="./assets/icons8-pottery-96.png" alt="small pottery vase" style="width: 35px;height: 35px;">
+            CARA</div>
+            <form>
+                <div>
+                  <input type="search" id="mySearch" name="q" />
+                  <button> <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magnifying glass" style="width: 10px; height: 10px;"></button>
+                </div>
+              </form>
             <a href="cart">CART (0)</a>
 
         </nav>
     </header>
     <main></main>
         
-        <section class="title picture">
+        <section class="title">
             <h1>CERAMICS CRAFTED BY HAND...
                 <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="pottery bowl on a pottery wheel with two hands around it">
                 … FROM THE GROUND UP
@@ -62,7 +66,8 @@
 
         </section>
         <h3>OUR PRODUCTS</h3>
-        <div id="products">
+        <div>
+            <div id="products">
             <div class="our products">
                 <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="two small gray bowls and one large white bowl">
                 <p>MUNDO BOWLS $48.00</p>
@@ -162,16 +167,23 @@
                 <a href="learn more">LEARN MORE</a>
                 <a href="add to cart">ADD TO CART</a>
             </div>
+        </div>
         
-        <section class="contact us">
-            <h4>CONTACT US</h4>
+    <section class="contact us">
+        <h4>CONTACT US</h4>
             
-            <p>EMAIL</p>
+        <label for="email">EMAIL</label>
+        <input name="email"
+               type="text"
+               size="10">
+        
+        <label for="message">MESSAGE</label>
+        <input name="message"
+               type="text"
+               size="20">
 
-            <p>MESSAGE</p>
-
-            <P>SEND</P>
-        </section>
+        <P>SEND</P>
+    </section>
 
     <footer>
         <img src="./assets/icons8-youtube-96.png" alt="youtube logo">
