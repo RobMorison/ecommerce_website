@@ -5,7 +5,6 @@ html{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    margin: 0;
 }
 
 header{
@@ -22,7 +21,7 @@ nav a{
     right: 1rem;
 }
 
-nav ul {
+.nav_list {
     list-style-type: none;
     position: absolute;
     top: 0.7rem;
@@ -52,8 +51,30 @@ nav div {
     width: 80%;
 }
 
+main section{
+    margin: 1rem auto;
+    width: 80%;
+}
+
+main image{
+    float: left;
+}
+
+
+
+.aboutus img{
+    float: right;
+
+}
+
 .box{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.product_box_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70pm;
 }
