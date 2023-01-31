@@ -13,44 +13,54 @@ header{
     padding: 1rem;
 }
 
-nav a{
+.nav_list{
+    display: grid;
+    flex-direction: row;
     color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 0.7rem;
-    right: 1rem;
 }
 
-.nav_list {
+.nav_buttons {
+    display: flex;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    align-content: left;
+    font-style: none;
+    color: black;
+    justify-content: space-evenly
+}
+
+.nav_buttons a{
+    display: black;
     list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    left: 1rem;
 }
 
-nav li {
-    display: inline;
-    margin-left: 0.5rem;
-}
 
-nav div {
-    color: black;
-    position: relative;
-    display: inline; 
-    top: 0.7rem;
-    left: 40rem;
-    width: 80%;
- 
-}
 
-.title {
+.first_title {
     background-color: black;
     color: white;
-    padding: 2rem;
-    margin: 1rem auto;
-    width: 80%;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
+.picture_title img{
+    background-color: black;
+    display: flex;
+    
+}
+
+.second_title{
+    background-color: black;
+    color: white;
+    margin-top: 15rem;
+    margin-left: 2rem;
+}
+
+.title_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black
+    
+}
 main section{
     margin: 1rem auto;
     width: 80%;
@@ -60,11 +70,18 @@ main image{
     float: left;
 }
 
+.about_us_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.about_us_paragraph img{
+    float: inline-start;
+}
 
-.aboutus img{
-    float: right;
-
+.about_us_paragraph{
+    display: flex;
+    flex-direction: row;
 }
 
 .box{
@@ -72,9 +89,19 @@ main image{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.box a{
+    background-color: #bf7631;
+    color: white;
+}
+
 .product_box_wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 65px;
     row-gap: 70pm;
+}
+
+footer{
+    background-color: #bf7631;
 }
