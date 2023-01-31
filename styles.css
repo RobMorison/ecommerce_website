@@ -13,6 +13,10 @@ header{
     padding: 1rem;
 }
 
+.nav_buttons a{
+    display: black;
+    list-style-type: none;
+}
 .nav_list{
     display: grid;
     flex-direction: row;
@@ -27,12 +31,6 @@ header{
     color: black;
     justify-content: space-evenly
 }
-
-.nav_buttons a{
-    display: black;
-    list-style-type: none;
-}
-
 
 
 .first_title {
@@ -72,7 +70,7 @@ main image{
 
 .about_us_card{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 3fr;
 }
 
 .about_us_paragraph img{
